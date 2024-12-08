@@ -1,0 +1,22 @@
+
+
+git init
+git add [file] or . [for all files in the directory]
+git commit -m " "
+git remote add [http repo url or ssh url]
+git remote -v (check available remote urls)
+git push -u origin master
+git push (subsequently, after initializing the default [-u])
+
+git status
+git log
+git log [branch]
+git diff
+
+git branch
+git checkout -b [name] (create branch)
+git checkout [branch] (switch branches)
+
+git merge
+git rebase
+git cherry-pick
