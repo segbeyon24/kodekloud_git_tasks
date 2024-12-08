@@ -1,0 +1,42 @@
+Date: 08/12/2024
+
+## Top largest file directories by size
+13355M	/
+5498M	/snap
+3321M	/usr
+2874M	/var
+2050M	/usr/lib
+2008M	/var/lib
+1928M	/snap/gnome-3-38-2004
+1711M	/snap/gnome-3-34-1804
+1586M	/var/lib/snapd
+1433M	/var/lib/snapd/snaps
+
+
+
+## FIles larger than 100MB on the drive
+
+/usr/lib/thunderbird/libxul.so
+/usr/lib/firefox/libxul.so
+/snap/gnome-3-38-2004/70/usr/lib/librsvg-2.so.2.47.0
+/var/lib/snapd/snaps/gnome-3-34-1804_93.snap
+/var/lib/snapd/snaps/gnome-3-38-2004_143.snap
+/var/lib/snapd/snaps/gnome-3-34-1804_72.snap
+/var/lib/snapd/snaps/gnome-3-38-2004_70.snap
+/var/lib/snapd/seed/snaps/gnome-3-34-1804_72.snap
+/var/lib/snapd/seed/snaps/gnome-3-38-2004_70.snap
+/proc/kcore
+/swapfile
+
+
+
+## FIles larger than 100MB in the current filesystem
+/usr/lib/thunderbird/libxul.so
+/usr/lib/firefox/libxul.so
+/var/lib/snapd/snaps/gnome-3-34-1804_93.snap
+/var/lib/snapd/snaps/gnome-3-38-2004_143.snap
+/var/lib/snapd/snaps/gnome-3-34-1804_72.snap
+/var/lib/snapd/snaps/gnome-3-38-2004_70.snap
+/var/lib/snapd/seed/snaps/gnome-3-34-1804_72.snap
+/var/lib/snapd/seed/snaps/gnome-3-38-2004_70.snap
+/swapfile
