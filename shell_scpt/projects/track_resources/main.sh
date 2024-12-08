@@ -1,5 +1,12 @@
 #!/bin/bash
 
+##################################
+# Date: 08-12-2024
+# ref_url: https://medium.com/@anandhirematha/shell-scripts-of-real-time-5876ea2b9b1e
+# Status: Untested (yet to test the code)
+##################################
+
+
 output_file="system_monitoring.txt"
 threshold_cpu=80
 threshold_memory=80
