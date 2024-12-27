@@ -1,6 +1,6 @@
 
 
-git init
+git init (intialization)
 git add [file] or . [for all files in the directory]
 git commit -m " "
 git remote add [http repo url or ssh url]
