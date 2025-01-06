@@ -1,0 +1,23 @@
+*** Clone Git repository on storage server
+
+1. login to the storage server:
+"ssh natasha@ststor01"
+password: "Bl@kW"
+
+2. cd to the destination directory
+"cd [dest._dir]"
+
+3. clone git repo:
+"sudo git clone /opt/demo.git"
+	- this creates a "blog" folder, containing only .git folder
+
+
+
+** Issues Encountered
+- when I cloned the git at home dir, without doing a cd to the
+  destination folder, it cloned the .git folder, omitting the "blog"
+  folder.
+
+
+** Helpful References
+- https://kodekloud.com/community/t/clone-git-repository-on-storage-server-question/466379

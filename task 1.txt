@@ -1,0 +1,42 @@
+*** Set up Git repository on storage server
+
+1. login to the storage server:
+"ssh natasha@ststor01"
+password: "Bl@kW"
+
+2. update:
+"sudo yum update -y"
+
+3. Install git:
+"sudo yum install git -y"
+
+4. Create bare git in /opt/demo.git
+"sudo cd /opt/ && git init --bare demo.git"
+
+
+
+** Issues Encountered
+- did not login to the storage server wth the right credentials
+- did not use sudo, so permssion was denied to create the git bare
+
+
+** When to Use a Bare Repository?
+
+Use a bare repository if you're:
+
+
+- Setting up a centralized Git server (not GitHub).
+- Hosting a repository internally for sharing without a Git hosting 
+service.
+Acting as a backup or synchronization point.
+
+For GitHub, bare repositories are already managed for you, so it's 
+easier to rely on cloning instead.
+
+
+** Helpful References
+- Project server details: https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus
+- https://kodekloud.com/community/t/git-bare-repository-opt-games-git-not-found-on-storage-server-or-its-not-a-bare-repository/418316
+- https://kodekloud.com/community/t/details-required-nautilus-storage-server/7434/3
+
+- 
